@@ -8,40 +8,30 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        />
+      
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Web development</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I am deeply passionate about web development and have mastered tools such as HTML, CSS, Bootstrap, Figma, and React.js.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>UI/UX design</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
+              I am passionate about UI/UX design, specializing in creating intuitive and engaging interfaces. With expertise in Figma and Adobe Illustrator, I excel in wireframing, prototyping, and visual design. My focus is on understanding user behavior to deliver visually appealing and highly functional experiences.
+
+
+
+
+
+
+</p>
             </div>
           </li>
         </ul>

@@ -58,6 +58,19 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  
+    width: 400px; /* Adjust the width and height as needed */
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
 }
 
 @keyframes floating {
